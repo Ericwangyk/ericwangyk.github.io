@@ -11,3 +11,5 @@ Previews use representative visual results from the author-supplied PDFs. PDF pa
 The fourth (insurance) paper is displayed without an image. Older extracted figures may remain as unreferenced assets.
 
 The Mathematics papers are CC BY 4.0. The IEEE panels are reused from the supplied final paper for co-author Yukai Wang's personal research website at his request. Figure attribution appears on the website.
+
+Second-paper website preview updated to highlight-flow.png: Zhang et al., IEEE JTEHM (2025), Figure 2, Method framework, PDF page 4 / printed page 368. Direct full-figure extraction from the supplied final PDF; no redrawing.
