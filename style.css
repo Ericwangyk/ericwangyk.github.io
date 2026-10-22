@@ -28,7 +28,7 @@
 .portrait-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
 .portrait-face{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 3px 14px #172d3915}
 .portrait-front{overflow:hidden;transform:rotateY(0deg)}
-.portrait-front img{display:block;width:100%;height:100%;object-fit:cover;object-position:85% center;transform:scale(1.8);transform-origin:86% 44%}
+.portrait-front img{display:block;width:100%;height:100%;object-fit:cover;object-position:85% center;transform:scale(2.35);transform-origin:80% 32%}
 .portrait-back{object-position:center 28%;transform:rotateY(180deg)}
 .portrait-flip:hover .portrait-inner,.portrait-flip:focus-visible .portrait-inner{transform:rotateY(180deg)}
 .portrait-flip:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
