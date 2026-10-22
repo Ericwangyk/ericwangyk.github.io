@@ -22,3 +22,14 @@
 .publication.text-only{grid-template-columns:minmax(0,1fr);padding-left:246px}
 @media(max-width:720px){.publication.text-only{padding-left:178px}}
 @media(max-width:520px){.publication.text-only{padding-left:0}.paper-figure>a{height:auto;min-height:0}.paper-figure{width:min(100%,280px)}}
+
+/* Flip portrait */
+.portrait-flip{perspective:1000px;box-shadow:none;cursor:default}
+.portrait-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.portrait-face{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:0 3px 14px #172d3915}
+.portrait-front{object-position:85% center;transform:rotateY(0deg)}
+.portrait-back{object-position:center 28%;transform:rotateY(180deg)}
+.portrait-flip:hover .portrait-inner,.portrait-flip:focus-visible .portrait-inner{transform:rotateY(180deg)}
+.portrait-flip:focus-visible{outline:2px solid var(--accent);outline-offset:6px}
+@media(prefers-reduced-motion:reduce){.portrait-inner{transition:none}}
+@media print{.portrait-flip .portrait-inner{transform:none}}
